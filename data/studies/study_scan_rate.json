@@ -1,0 +1,45 @@
+{
+  "name": "study_scan_rate",
+  "parameter_path": "cv.scan_rate",
+  "values": [
+    0.01,
+    0.1325,
+    0.255,
+    0.3775,
+    0.5
+  ],
+  "base_config": {
+    "name": "simulation",
+    "physical": {
+      "D": 7e-09,
+      "k0": 1e-05,
+      "alpha": 0.5,
+      "E0": 0.36,
+      "c_bulk": 1.0,
+      "n": 1,
+      "T": 298.15,
+      "F": 96485.0,
+      "R": 8.314
+    },
+    "cv": {
+      "E_start": 0.36,
+      "E_vertex1": 0.86,
+      "E_vertex2": -0.14,
+      "scan_rate": 0.1,
+      "n_cycles": 2
+    },
+    "numerical": {
+      "dt": 0.005,
+      "vtk_interval": 50
+    },
+    "geometry": {
+      "we_x": -0.0025,
+      "we_diameter": 0.0015,
+      "ce_x": 0.0025,
+      "ref_x": 0.0,
+      "depth": 0.0015
+    },
+    "mesh_path": null,
+    "output_dir": null
+  }
+}

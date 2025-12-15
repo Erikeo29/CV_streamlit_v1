@@ -1,0 +1,34 @@
+{
+  "name": "study_scan_rate_03",
+  "physical": {
+    "D": 7e-09,
+    "k0": 1e-05,
+    "alpha": 0.5,
+    "E0": 0.36,
+    "c_bulk": 1.0,
+    "n": 1,
+    "T": 298.15,
+    "F": 96485.0,
+    "R": 8.314
+  },
+  "cv": {
+    "E_start": 0.36,
+    "E_vertex1": 0.86,
+    "E_vertex2": -0.14,
+    "scan_rate": 0.255,
+    "n_cycles": 2
+  },
+  "numerical": {
+    "dt": 0.005,
+    "vtk_interval": 50
+  },
+  "geometry": {
+    "we_x": -0.0025,
+    "we_diameter": 0.0015,
+    "ce_x": 0.0025,
+    "ref_x": 0.0,
+    "depth": 0.0015
+  },
+  "mesh_path": "/home/erikeo29/15_R&D_CV/06_CV (Firedrake)/03_CV (param & streamlit)/data/meshes/electrode_comsol.msh",
+  "output_dir": "/home/erikeo29/15_R&D_CV/06_CV (Firedrake)/03_CV (param & streamlit)/data/results/006"
+}

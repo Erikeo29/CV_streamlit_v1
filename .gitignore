@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Data files (too large for git)
+data/results/*/concentrations/
+data/results/*/snapshots/
+data/results/*/*.vtu
+data/results/*/*.pvd
+data/results/*/*.csv
+data/results/*/*.png
+data/results/*/*.gif
+data/results/*/*.log
+data/results/*/pid.txt
+data/results/*/progress.json
+data/results/*/open_in_paraview.py
+data/studies/*.log
+
+# Keep config files
+!data/results/*/config.json
+!data/results/*/metrics.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Temporary
+*.tmp
+*.bak

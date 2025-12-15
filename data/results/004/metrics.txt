@@ -1,0 +1,4 @@
+Pic anodique:   Ipa = 6.40 uA @ Epa = 0.467 V
+Pic cathodique: Ipc = -6.62 uA @ Epc = 0.252 V
+Ratio |Ipa/Ipc| = 0.97
+Delta Ep = 215 mV

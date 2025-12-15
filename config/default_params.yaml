@@ -1,0 +1,28 @@
+# Configuration par defaut pour les simulations CV
+# Systeme: Fe(CN)6 3-/4- (Ferri/Ferrocyanide)
+
+physical:
+  D: 7.0e-9           # Coefficient de diffusion (m²/s)
+  k0: 1.0e-5          # Constante cinetique heterogene (m/s)
+  alpha: 0.5          # Coefficient de transfert
+  E0: 0.36            # Potentiel formel (V)
+  c_bulk: 1.0         # Concentration bulk (mol/m³)
+  n: 1                # Nombre d'electrons
+  T: 298.15           # Temperature (K)
+
+cv:
+  E_start: 0.36       # Potentiel initial (V)
+  E_vertex1: 0.86     # Vertex anodique (V)
+  E_vertex2: -0.14    # Vertex cathodique (V)
+  scan_rate: 0.1      # Vitesse de balayage (V/s)
+  n_cycles: 2         # Nombre de cycles
+
+numerical:
+  dt: 0.005           # Pas de temps (s)
+  vtk_interval: 50    # Intervalle export VTK
+
+geometry:
+  we_x: -2.5e-3       # Position X du WE (m)
+  we_diameter: 1.5e-3 # Diametre WE (m)
+  ce_x: 2.5e-3        # Position X du CE (m)
+  depth: 1.5e-3       # Profondeur 2D->3D (m)

@@ -1,0 +1,21 @@
+# Streamlit App - CV Simulation
+# Installation: pip install -r requirements.txt
+
+# Interface
+streamlit>=1.28.0
+
+# Visualisation
+plotly>=5.18.0
+matplotlib>=3.8.0
+pyvista>=0.42.0
+stpyvista>=0.0.10
+
+# Data
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Config
+pyyaml>=6.0
+
+# Note: Firedrake et EchemFEM doivent etre installes separement
+# via l'environnement Firedrake (start_fire)
