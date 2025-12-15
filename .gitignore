@@ -8,6 +8,8 @@ __pycache__/
 .eggs/
 
 # Data files (too large for git)
+# Meshes can be regenerated with mesh_generator.py
+# data/meshes/*.msh
 data/results/*/concentrations/
 data/results/*/snapshots/
 data/results/*/*.vtu

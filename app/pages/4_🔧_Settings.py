@@ -30,7 +30,7 @@ with col2:
     # Verifier les chemins
     results_ok = (PROJECT_DIR / "data" / "results").exists()
     meshes_ok = (PROJECT_DIR / "data" / "meshes").exists()
-    mesh_default = (PROJECT_DIR / "data" / "meshes" / "electrode_comsol.msh").exists()
+    mesh_default = (PROJECT_DIR / "data" / "meshes" / "electrode_wells.msh").exists()
 
     st.markdown("**Status:**")
     st.markdown(f"- Resultats: {'✅' if results_ok else '❌'}")

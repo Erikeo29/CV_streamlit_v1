@@ -626,7 +626,7 @@ def main():
     if args.mesh:
         mesh_path = args.mesh
     else:
-        mesh_path = os.path.join(project_dir, "06_Mesh", "electrode_comsol.msh")
+        mesh_path = os.path.join(project_dir, "06_Mesh", "electrode_wells.msh")
 
     if not os.path.exists(mesh_path):
         print(f"Maillage non trouve: {mesh_path}")

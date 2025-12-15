@@ -215,7 +215,7 @@ with col2:
         run_dir.mkdir(exist_ok=True)
 
         config.output_dir = str(run_dir)
-        config.mesh_path = str(PROJECT_DIR / "data" / "meshes" / "electrode_comsol.msh")
+        config.mesh_path = str(PROJECT_DIR / "data" / "meshes" / "electrode_wells.msh")
 
         config_path = run_dir / "config.json"
         config.save(config_path)

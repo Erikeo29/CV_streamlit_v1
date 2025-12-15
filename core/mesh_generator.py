@@ -25,7 +25,7 @@ Usage:
     python mesh_comsol_geometry.py --view  # Ouvrir dans Gmsh GUI
 
 Sortie:
-    06_Mesh/electrode_comsol.msh
+    06_Mesh/electrode_wells.msh
 """
 
 import gmsh
@@ -351,9 +351,9 @@ def main():
     if args.output:
         output_path = args.output
     else:
-        mesh_dir = os.path.join(project_dir, "06_Mesh")
+        mesh_dir = os.path.join(project_dir, "data", "meshes")
         os.makedirs(mesh_dir, exist_ok=True)
-        output_path = os.path.join(mesh_dir, "electrode_comsol.msh")
+        output_path = os.path.join(mesh_dir, "electrode_wells.msh")
 
     # Creer le maillage
     we_center_x = args.we_x * 1e-3  # Convertir mm -> m

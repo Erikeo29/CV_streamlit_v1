@@ -56,7 +56,7 @@ def run_parametric_study(study_path: Path):
     results_dir.mkdir(parents=True, exist_ok=True)
 
     # Chemin du mesh
-    mesh_path = PROJECT_DIR / "data" / "meshes" / "electrode_comsol.msh"
+    mesh_path = PROJECT_DIR / "data" / "meshes" / "electrode_wells.msh"
     if not mesh_path.exists():
         print(f"ERREUR: Mesh non trouvé: {mesh_path}")
         sys.exit(1)

@@ -37,7 +37,7 @@ def run_from_config(config_path: Path):
     # Chemins
     mesh_path = config.get('mesh_path')
     if not mesh_path or not Path(mesh_path).exists():
-        mesh_path = PROJECT_DIR / "data" / "meshes" / "electrode_comsol.msh"
+        mesh_path = PROJECT_DIR / "data" / "meshes" / "electrode_wells.msh"
 
     output_dir = config.get('output_dir')
     if not output_dir:
